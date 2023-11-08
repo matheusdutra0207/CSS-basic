@@ -30,4 +30,31 @@ p {
 
 ## A tag ```<div>``` 
 
-O elemento de divisão ```<div>``` é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. 
+O elemento de divisão ```<div>``` é um container genérico para conteúdo de fluxo, que de certa forma não representa nada.
+
+```
+<div>
+  Eu estou dentro de uma div
+</div>
+```
+
+## Classes no CSS
+
+As classes são uma forma de identificar um grupo de elementos. Através delas, pode-se atribuir formatação a vários elementos de uma vez. O código a seguir cria uma classe que é atribuída a uma div.
+
+```CSS
+ .caixa_vermelha {
+     width: 250px;
+     height: 250px;
+     background-color: red;
+     border: 2px solid blueviolet; 
+ }
+```
+
+```HTML
+<div class="caixa_vermelha">
+ Eu estou dentro da caixa vermelha
+</div>
+```
+
+
