@@ -57,4 +57,79 @@ As classes são uma forma de identificar um grupo de elementos. Através delas, 
 </div>
 ```
 
+## Vamos praticar um pouco
+
+```
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            font-family: arial;
+            position: relative;
+            font-size: 24px;
+            width: 300px;
+            height: 300px;
+            outline: dashed 1px black;
+            /* Center vertically and horizontally */
+            /* justify-content: center;
+            align-items: center; */
+        }
+
+        .caixa_vermelha1 {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border: 2px solid blueviolet; 
+            position: absolute;
+            top: 0px;
+            right: 0px;  
+            display: flex; 
+            justify-content: center;
+            align-items: center;           
+        }
+        .caixa_vermelha2 {
+            width: 48px;
+            height: 48px;
+            background-color: red;
+            border: 1px solid blueviolet; 
+            position: absolute;
+            top:  26px;
+            right: 220px; 
+            display: flex;    
+            justify-content: center;
+            align-items: center;          
+        }
+        .caixa_vermelha3 {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border: 2px solid blueviolet; 
+            position: absolute;
+            top:  125px;
+            right: 125px;     
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+                   
+        }                
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="caixa_vermelha1"> Ok </div>
+        <div class="caixa_vermelha2"> Ok </div>
+        <div class="caixa_vermelha3"> Ok </div>
+    </div>
+</body>
+</html>
+```
+
+## Exercício 
+
+
 
